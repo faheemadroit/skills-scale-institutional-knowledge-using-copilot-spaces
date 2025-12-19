@@ -15,6 +15,7 @@ Guidance for managing day-to-day execution and tracking progress toward project 
   - Include issue link and acceptance criteria in PR description
   - Run automated tests and linting in CI before requesting review
   - Require at least one approval before merging (or team-defined policy)
+  - Follow the standardized PR checklist: docs/templates/checklists.md
 
 ## Quality & Testing
 - Unit tests for new logic
@@ -22,6 +23,7 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - End-to-end smoke tests for critical flows before release
 - Security scanning in CI
 - Manual QA for feature acceptance when needed
+- Refer to the QA checklist for release readiness: docs/templates/checklists.md
 
 ## Reporting & Metrics
 - Track velocity and burndown
@@ -32,6 +34,9 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Level 1: Team-level triage in daily standup
 - Level 2: PM escalates to Product Lead and dependent teams
 - Level 3: Sponsor-level escalation for business-impacting issues
+
+## Execution Checklist & Improvements
+To reduce handoffs and ambiguous expectations, the repo now includes standardized templates and checklists (docs/templates/checklists.md) and communication templates (docs/templates/communication-templates.md). Make these part of your PR and release workflows to reduce rework, speed reviews, and improve handoffs.
 
 ## Execution Checklist
 - [ ] Branching and PR conventions documented in repo
